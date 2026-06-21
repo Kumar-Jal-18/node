@@ -45,7 +45,7 @@ def get_target(os_name, target_arch):
         return ('RISCV', 'riscv')
 
     if target_arch == 'loong64':
-        return ('LOONGARCH64', 'loongarch64')
+        return ('LOONGARCH64', 'loongarch')
 
     if target_arch in ('mips', 'mipsel', 'mips64el'):
         if os_name in ('freebsd', 'linux', 'openbsd'):
